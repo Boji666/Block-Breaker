@@ -39,8 +39,7 @@ public class Ball : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             hasStarted = true;
-            GetComponent<Rigidbody2D>().velocity = new Vector2(posX, posY);
-           
+            GetComponent<Rigidbody2D>().velocity = new Vector2(posX, posY);     
         }
     }
 
